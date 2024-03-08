@@ -13,4 +13,4 @@ function countVowels(sentence){
 
   const country = 'Netherland';
 
-  console.log(countVowels(country));
+  console.log(countVowels(country));//hello mr jovin
