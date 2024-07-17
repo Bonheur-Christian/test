@@ -7,4 +7,10 @@ export default defineConfig({
   build: {
     outDir: 'public', // ensure this matches the directory you want to use
   },
+  server: {
+    mimeTypes: {
+      // ensure .js files are served with the correct MIME type
+      'application/javascript': ['js'],
+    },
+  },
 })
